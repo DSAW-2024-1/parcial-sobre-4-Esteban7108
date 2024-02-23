@@ -1,0 +1,209 @@
+@media screen and (min-width: 865px){
+body {
+    background-color: rgba(54, 56, 77, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    margin: 0; 
+}
+
+.contenedor_grande {
+    background-color: white;
+    width: 60%;
+    height: 80%;
+    border-radius: 4%;
+    display: flex;
+    justify-content: space-evenly;
+    
+    align-items: center;
+}
+.contenido {
+    display: flex;
+    flex-direction: column;
+    
+    width: 45%; 
+    gap: 2vh;
+  
+
+}
+#Titulo {
+    width: 100%; 
+
+    font-size: 3vw;
+    color: rgba(54, 56, 77, 255);
+}
+p{
+   
+    align-items: center;
+    text-align: start;
+}
+#lista ol {
+    padding-left: 0; 
+    margin-top: 0; 
+}
+
+#lista ol li {
+    list-style: none; 
+    margin-bottom: 10px; 
+}
+
+#lista ol li svg {
+    vertical-align: middle; 
+    margin-right: 5px; 
+}
+.textp{
+    font-size: 1rem;
+}
+
+.img-container {
+    width: 22vw;
+    
+    margin-right: 2rem;
+    margin-top: 1rem;
+  }
+  .GT {
+    width: 100%;
+    align-items: center;
+   text-align: start;
+   display: flex;
+   justify-content: space-between;
+  }
+  .contenidoa{
+    padding-top: 10%;
+    width: 45rem;
+    height: 25rem;
+  }
+  #chek{
+    margin-bottom: 1rem;
+  }
+ #agra{
+    width: 100%; 
+    font-size: 3vw;
+    color: rgba(54, 56, 77, 255);
+    margin-bottom: 5%;
+    padding: 0;
+    line-height: 3rem;
+ }
+ #submitButton{
+    margin-top: 3%;
+    background: #36384d;
+    transition: background 1s ease; 
+  }
+  
+  #submitButton.hover {
+    background: linear-gradient(to right, #ff5377, #ff673e); 
+  }
+
+#submitaButton{
+    margin-top: 3%;
+    background: #36384d; 
+    transition: background 1s ease; 
+  }
+  
+  #submitaButton.hover {
+    background: linear-gradient(to right, #ff5377, #ff673e); 
+  }
+  #Error{
+    color: red;
+  }
+}
+@media screen and (max-width: 864px){
+   
+  
+    
+    .contenedor_grande {
+        background-color: white;
+        padding: 0;
+        border-radius: 4%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        
+        flex-direction: column-reverse;
+    }
+
+    #Titulo {
+        width: 100%; 
+        font-size: 8vw;
+        color: rgba(54, 56, 77, 255);
+        margin-bottom: 2%;
+    }
+    p{
+       
+        align-items: center;
+        text-align: start;
+    }
+    #lista ol {
+        padding-left: 0; 
+        margin-top: 0; 
+    }
+    
+    #lista ol li {
+        list-style: none; 
+        margin-bottom: 10px; 
+    }
+    
+    #lista ol li svg {
+        vertical-align: middle; 
+        margin-right: 5px; 
+    }
+    .textp{
+        font-size: 1rem;
+    }
+    
+    .img-container {
+        width: fit-content;
+        margin-bottom: 2rem; 
+        
+      }
+      
+      .GT {
+        width: 100%;
+        align-items: center;
+       text-align: start;
+       display: flex;
+       justify-content: space-between;
+       font-size: 1.5vh;
+       margin-bottom: 3%;
+      }
+      .contenidoa{
+        padding-top: 10%;
+        width: 45rem;
+        height: 25rem;
+      }
+      #chek{
+        margin-bottom: 1rem;
+      }
+     #agra{
+        width: 100%; 
+        font-size: 3vw;
+        color: rgba(54, 56, 77, 255);
+        margin-bottom: 5%;
+        padding: 0;
+        line-height: 3rem;
+     }
+     #submitButton{
+        margin-top: 3%;
+        background: #36384d;
+        transition: background 1s ease; 
+      }
+      
+      #submitButton.hover {
+        background: linear-gradient(to right, #ff5377, #ff673e); 
+      }
+    
+    #submitaButton{
+        margin-top: 3%;
+        background: #36384d; 
+        transition: background 1s ease; 
+      }
+      
+      #submitaButton.hover {
+        background: linear-gradient(to right, #ff5377, #ff673e); 
+      }
+      #Error{
+        color: red;
+      }
+      
+}
